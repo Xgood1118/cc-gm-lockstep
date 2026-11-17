@@ -12,11 +12,6 @@ class World:
     history: list = field(default_factory=list)
 
 
-def World:
-    """class"""
-    raise NotImplementedError("World 尚未实现")
-
-
 def step(world, inputs):
     """推进一帧"""
     raise NotImplementedError("step 尚未实现")
